@@ -1,0 +1,15 @@
+:root{
+    --czerwony: red;
+    --niebieski: blue;
+}
+
+
+.exercise0a
+{
+    font-size: 32px;
+    width: 10em;
+    height: 10em;
+    background: var(--czerwony);
+    opacity: 0.5;
+    border: 8px solid var(--niebieski);
+}

@@ -1,0 +1,43 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.table {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.table th {
+  text-align: left;
+  padding: 20px;
+  background: #3A3A3A;
+  color: #fff;
+  text-transform: capitalize;
+  
+}
+td
+{
+  padding: 20px;
+}
+tr:nth-child(2)
+{
+  background: #eee;
+}
+tr:nth-child(4)
+{
+  background: #eee;
+}
+tr:nth-child(6)
+{
+  background: #eee;
+}
+tr:nth-child(8)
+{
+  background: #eee;
+}
+tr:nth-child(10)
+{
+  background: #eee;
+}

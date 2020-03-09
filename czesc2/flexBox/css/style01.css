@@ -1,0 +1,25 @@
+.container
+{
+    color:  #492F41;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 20px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E53C3D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo
+{
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.menu
+{
+    box-sizing: border-box;
+    padding-right: 20px;
+}

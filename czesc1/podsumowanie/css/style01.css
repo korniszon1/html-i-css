@@ -1,0 +1,53 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    width: 1000px;
+    margin-left: auto;
+    margin-right:auto;
+}
+ul
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 50px;
+    list-style: none;
+    text-align: center;
+    color:white;
+}
+li
+{
+    line-height: 50px;
+    font-weight: 300;
+}
+/* Pierwsza lista */
+.first-list-containier
+{
+    background-color: #e8370e;
+    /*text-align: center;*/
+    
+}
+.first-list-containier li
+{
+    background: #711c08;
+    font-weight: 400;
+}
+/*Druga lista*/
+.first-list-containier+ul
+{
+    
+    background-color: #3f51b5;
+}
+.first-list-containier+ul li
+{
+    background-color: #00bcd4;font-weight: 700;
+}
+/*Trzecia lista*/
+.first-list-containier+ul li>ul
+{
+    
+    background-color:#8bc34a;
+}
+.first-list-containier+ul li>ul li
+{
+    background-color:#009688;font-weight: 300;
+}

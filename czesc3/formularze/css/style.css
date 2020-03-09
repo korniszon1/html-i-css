@@ -1,0 +1,67 @@
+body
+{
+    height: 100vh;
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+    background-position: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+input[type=text], select
+{
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    display: block;
+    width: 400px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.login
+{
+    background-color: white;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+input[type=password], select
+{
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    display: block;
+    width: 400px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+button[type=submit]
+{
+    
+    background-color: #05A081;
+    padding: 15px 30px;
+    display: inline-block;
+    color: white;
+    border: 0px;    
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 1s;
+}
+.form-row
+{
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+label
+{
+    margin-right: 10px;
+}
+button[type=submit]:hover
+{
+    background-color: #038060;
+}

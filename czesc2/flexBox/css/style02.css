@@ -1,0 +1,20 @@
+.zdj
+{
+     /*width: 400px;
+     height: 266.6px;*/
+     width: 100%;
+     height: 19.995vw;
+}
+.projekt
+{
+    box-sizing: border-box;
+    max-width: 28vw;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.container
+{
+    display: flex;
+    justify-content:   space-between;
+}

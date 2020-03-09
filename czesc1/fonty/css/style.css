@@ -1,0 +1,54 @@
+/**
+  Deklaracje @font-face tutaj!
+ */
+@font-face
+{
+  font-family: FontLato;
+  src:url(../fonts/lato-regular-webfont.woff);
+}
+@font-face
+{
+  font-family: FontSerif;
+  src:url(../fonts/dmseriftext-regular-webfont.woff);
+}
+:root {
+  --h1: 3rem;
+  --h2: 2.5rem;
+  --container-width: 1000px;
+}
+
+body {
+  max-width: var(--container-width);
+  width: calc(100% - 30px);
+  margin: 0 auto;
+  font-family: FontLato;
+}
+
+h1, h2 {
+  color: orangered;
+  font-family: 'Pacifico', cursive;
+}
+
+h1 {
+  font-size: var(--h1);
+  font-family: 'Pacifico', cursive;
+}
+
+h2 {
+  font-size: var(--h2);
+  margin-top: 0;
+}
+
+section, header, article {
+  margin-bottom: 3rem;
+}
+
+.section--bottom {
+  background: #eee;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+}
+.section--bottom p
+{
+  font-family: FontSerif;
+}

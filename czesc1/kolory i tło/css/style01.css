@@ -1,0 +1,9 @@
+.rocks
+{
+    margin: 0;
+    width: 600px;
+    height: 350px;
+    background-image: url(../images/rocks.jpg);
+    background-size: 100%;
+    background-position: center center;
+}

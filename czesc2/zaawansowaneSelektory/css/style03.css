@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cnt {
+  margin-bottom: 20px;
+}
+
+.cnt div {
+  overflow: hidden;
+}
+
+.cnt div * {
+  width: 30px;
+  height: 30px;
+  display: block;
+  float: left;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.cnt div *:first-child {
+  border-left: 1px solid #ddd;
+}
+
+.cnt div:nth-of-type(1) * {
+  border-top: 1px solid #ddd;
+}
+
+div * {
+  background: gold;
+}
+
+
+/*
+-------------------------
+Sprobuj odwzorować grafikę nie zmieniajac HTML
+-------------------------
+gold - kolor żółty
+black - kolor czarny
+*/
+/* Obramowanie */
+.cnt>div:nth-child(1) strong,
+.cnt>div:nth-child(2) strong,
+.cnt>div:nth-child(9) strong, 
+.cnt>div:nth-child(10) strong
+{
+  background: white;
+}
+.cnt>div:nth-child(1) span:nth-child(2)
+{
+  background: white;
+}
+.cnt>div:nth-child(1) span:nth-child(9)
+{
+  background: white;
+}
+.cnt>div:nth-child(10) span:nth-child(9)
+{
+  background: white;
+}
+.cnt>div:nth-child(10) span:nth-child(2)
+{
+  background: white;
+}
+/* zeby */
+.cnt>div:nth-child(6) span:nth-child(3)
+{
+  background: white;
+}
+.cnt>div:nth-child(6) span:nth-child(8)
+{
+  background: white;
+}
+.cnt>div:nth-child(6) strong:nth-child(4)
+{
+  background: white;
+}
+.cnt>div:nth-child(6) strong:nth-child(5)
+{
+  background: white;
+}
+.cnt>div:nth-child(6) strong:nth-child(6)
+{
+  background: white;
+}
+.cnt>div:nth-child(6) strong:nth-child(7)
+{
+  background: white;
+}
+/* Oczy */
+.cnt>div:nth-child(3) span:nth-child(2)
+{
+  background: black;
+}
+.cnt>div:nth-child(3) span:nth-child(3)
+{
+  background: black;
+}
+.cnt>div:nth-child(3) span:nth-child(4)
+{
+  background: black;
+}
+.cnt>div:nth-child(3) span:nth-child(7)
+{
+  background: black;
+}
+.cnt>div:nth-child(3) span:nth-child(8)
+{
+  background: black;
+}
+.cnt>div:nth-child(3) span:nth-child(9)
+{
+  background: black;
+}
+.cnt>div:nth-child(4) span:nth-child(2)
+{
+  background: black;
+}
+.cnt>div:nth-child(4) span:nth-child(4)
+{
+  background: black;
+}
+.cnt>div:nth-child(4) span:nth-child(7)
+{
+  background: black;
+}
+.cnt>div:nth-child(4) span:nth-child(9)
+{
+  background: black;
+}
+/* buzia v2 */
+.cnt>div:nth-child(6) span:nth-child(2)
+{
+  background: black;
+}
+.cnt>div:nth-child(6) span:nth-child(9)
+{
+  background: black;
+}
+.cnt>div:nth-child(7) span:nth-child(2)
+{
+  background: black;
+}
+.cnt>div:nth-child(7) span:nth-child(3)
+{
+  background: black;
+}
+.cnt>div:nth-child(7) span:nth-child(4)
+{
+  background: black;
+}
+.cnt>div:nth-child(7) span:nth-child(5)
+{
+  background: black;
+}
+.cnt>div:nth-child(7) span:nth-child(6)
+{
+  background: black;
+}
+.cnt>div:nth-child(7) span:nth-child(7)
+{
+  background: black;
+}
+.cnt>div:nth-child(7) span:nth-child(8)
+{
+  background: black;
+}
+.cnt>div:nth-child(7) span:nth-child(9)
+{
+  background: black;
+}
+.cnt>div:nth-child(8) span:nth-child(3)
+{
+  background: black;
+}
+.cnt>div:nth-child(8) span:nth-child(4)
+{
+  background: black;
+}
+.cnt>div:nth-child(8) span:nth-child(5)
+{
+  background: black;
+}
+.cnt>div:nth-child(8) span:nth-child(6)
+{
+  background: black;
+}
+.cnt>div:nth-child(8) span:nth-child(7)
+{
+  background: black;
+}
+.cnt>div:nth-child(8) span:nth-child(8)
+{
+  background: black;
+}
+.cnt>div:nth-child(9) span:nth-child(4)
+{
+  background: black;
+}
+.cnt>div:nth-child(9) span:nth-child(5)
+{
+  background: black;
+}
+.cnt>div:nth-child(9) span:nth-child(6)
+{
+  background: black;
+}
+.cnt>div:nth-child(9) span:nth-child(7)
+{
+  background: black;
+}

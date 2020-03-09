@@ -1,0 +1,47 @@
+#container
+{
+    display: flex;
+    border: 3px solid black;
+    border-radius: 7px;
+    text-align: center;
+    flex-wrap: row nowrap;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.napis
+{
+    flex-wrap: nowrap;
+    display: flex;
+    max-width: 500px;
+    
+}
+img
+{
+    max-width: 170px;
+    max-height: 170px;
+    display: flex;
+}
+.lewo
+{
+    /* float: left; */
+}
+.prawo
+{
+    
+    /* float: left; */
+    display: flex;
+    flex-direction: column;
+}
+#guzik
+{
+    /* margin-left: 180px; */
+    text-align: center;
+    border-radius: 10px;
+    max-width: 130px;
+    min-height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    display: flex;
+    align-self: flex-end;
+}

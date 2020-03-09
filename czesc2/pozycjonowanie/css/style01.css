@@ -1,0 +1,23 @@
+.container {
+  border: 2px solid red;
+  padding: 10px;
+}
+
+/* tutaj twoje style */
+.container
+{
+  width: auto; 
+  height: 248px;
+}
+.element
+{
+  border:2px solid dodgerblue;
+  margin: 10px;
+  width: 100px;
+  float:left;
+  height: 100px;
+}
+.element:nth-child(4)
+{
+  clear: both;
+}

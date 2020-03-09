@@ -1,0 +1,32 @@
+:root{
+    --czerwony: red;
+    --niebieski: blue;
+    --zielony: green;
+}
+body
+{
+
+    font-size:10px;
+}
+
+.element1
+{
+    width: 150px;
+    height: 150px;
+    margin:10px;
+    background-color: var(--czerwony);
+}
+.element2
+{
+    margin: 1em;
+    width: 15em;
+    height: 15em;
+    background-color: var(--niebieski) ;
+}
+.element3
+{
+    margin: 0.625rem;
+    width: 9.375rem;
+    height: 9.375rem;
+    background-color: var(--zielony);
+}
